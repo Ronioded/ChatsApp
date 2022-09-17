@@ -13,7 +13,8 @@ _4._ **Chat Page**- Once the user clicks on contact, he can see on the right the
 _5._ **Add Contact Modal**- In this modal, the user can add a chat with a new contact.  
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/74676502/190852427-80c7d7e5-f16f-4e1b-a463-779a35ade04a.png">
 
-In this video, you can see the registration of a new user, add a new contact, and click on the contact to see the new empty chat.   
+In this video, you can see the registration of a new user, add a new contact, and click on the contact to see the new empty chat.
+
 https://user-images.githubusercontent.com/74676502/190851779-f5594955-4489-4673-8758-b8302f63f0ae.mov
 
 
