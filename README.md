@@ -17,6 +17,14 @@ In this video, you can see the registration of a new user, add a new contact, an
 
 https://user-images.githubusercontent.com/74676502/190851779-f5594955-4489-4673-8758-b8302f63f0ae.mov
 
+### How to run?  
+To run the client, you need to download:
+   -  @microsoft/signalr by the command ```npm i @microsoft/signalr```
+   -  react-router-dom by the command ```npm i react-router-dom```
+   -  react-bootstrap by the command ```npm i react-bootstrap```  
+  
+You also need a node_modules folder that you can download by creating a new to react app with the command ```npx create-react-app my-app```.  
+To run type ```npm start``` after cd to the folder that contains the files.
 
 ## Android client  
 The Android client is written in Java(XML for the design) with MVVM architecture. The client uses Firebase to get notifications in real-time. The client also uses ROOM library to have a local database on the android device and save all the data on it. Once login or tap a contact to open the messages history, the data shown is the data in the local database, and meanwhile, there are asynchronous API calls to the web service to update the data. Once the updated data arrives it renders it.
