@@ -26,13 +26,31 @@ To run the client, you need to download:
 You also need a node_modules folder that you can download by creating a new to react app with the command ```npx create-react-app my-app```.  
 To run type ```npm start``` after cd to the folder that contains the files.
 
+
 ## Android client  
 The Android client is written in Java(XML for the design) with MVVM architecture. The client uses Firebase to get notifications in real-time. The client also uses ROOM library to have a local database on the android device and save all the data on it. Once login or tap a contact to open the messages history, the data shown is the data in the local database, and meanwhile, there are asynchronous API calls to the web service to update the data. Once the updated data arrives it renders it.
+
+
 ## Server  
-The Server is written in C# with ASP.NET MVC architecture and Entity Framework Core. The server uses SQLite database to save all the data - users, contacts, and messages.
-The server use API written in C# with REST API architecture. The API defines a way to get access to the objects on the database.
-In order to check the API methods, the server uses Swagger UI:
+The Server is written in C# with ASP.NET MVC architecture and Entity Framework Core.  
+The server uses SQLite database to save all the data - users, contacts, and messages.
+The server uses API written in C# with REST API architecture. The API defines a way to get access to the objects on the database.  
+In order to check the API methods, the server uses Swagger UI. The connected user in concat to the URL in the format: /?username="username".  
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/74676502/190852573-b77452f1-61b7-4704-a492-dc340b341670.png">  
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/74676502/190852595-33b7b9f7-449e-46a1-9625-793974e66821.png">
 
-
+### How to run?  
+In launchsettings.json file, there is a definition that the server will run on port 5119. If the server is running on another port, you need to change it in Server.js file in the client and in strings.xml file under 'API_URL' in the android app.
+***Downloads we have done in visual studio:***  
+   -  FirebaseAdmin
+   -  Swashbuckle.AspNetCore
+   -  Microsoft.EntityFrameworkCore
+   -  Microsoft.EntityFrameworkCore.Tools
+   -  Microsoft.EntityFrameworkCore.Sqlite
+   -  Microsoft.EntityFrameworkCore.Design
+   -  Microsoft.AspNet.Mvc
+   -  Newtonsoft.Json
+   -  Microsoft.VisualStudio.Web.CodeGeneration.Design  
+    
+After the downloads, run the server regularly on visual studio.
+***Notice that we used SQLite, the DB is in ChatsAppDB.db file***
