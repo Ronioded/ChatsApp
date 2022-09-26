@@ -1,0 +1,89 @@
+#login,
+#register,
+#addContactModal {
+  width: 40%;
+  height: fit-content;
+}
+
+.pages {
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  background-color: #f5dbdb;
+  border-radius: 25px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fdfdcb;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.form-label {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.btn {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #e0eaf6a8;
+  cursor: pointer;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+a {
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+input {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #fdfdcb;
+  background-color: #f5dbdb;
+  display: block;
+  width: 100%;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.linkDesign {
+  padding: 0px 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5dbdb;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fdfdcb;
+}

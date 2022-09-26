@@ -1,0 +1,136 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:background="@drawable/pages_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login_page"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/username_label_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/username_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_placeholder_login"
+            android:inputType="text"
+            android:autofillHints=""
+            android:background="@null"
+            android:labelFor="@id/username_label_login"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/yellow"/>
+
+        <TextView
+            android:id="@+id/username_error_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/password_label_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_placeholder_login"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:labelFor="@+id/password_label_login"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/yellow"/>
+
+        <TextView
+            android:id="@+id/passwords_error_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/error_from_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Login"
+            android:backgroundTint="@color/yellow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_registered"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/go_to_register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click_here"
+                android:textColor="@color/gray"
+                android:backgroundTint="@color/pink"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_register"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

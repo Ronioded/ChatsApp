@@ -1,0 +1,92 @@
+#chat {
+    border: 3px solid #a3c8f7;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: flex;
+    flex:1;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#contactName {
+    font-weight: 900;
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a3c8f7;
+    margin-bottom: 3px;
+}
+
+.chatBody {
+   overflow-y: auto;
+   min-height: 50px;
+   height: calc(100% - 63px - 71px);
+   width: 100%;
+}
+
+.toolBar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #a3c8f7;
+}
+
+.toolBar > form {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+}
+
+#addMessageInput {
+    flex:1;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+    background-color: #f5dbdb;
+    border: 3px solid #a3c8f7;
+}
+
+#addMessageInput:focus {
+    border-color: #fdfdcb;
+}
+
+#addMessageButton  {
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    background-color: transparent;
+    border: 3px solid #a3c8f7;
+}
+
+.messageTime {
+    margin-left: 5px;
+    font-size: 10px;
+    position: flex;
+    margin-top: auto;
+}
+
+.message {
+    height: fit-content;
+    width: 170px;
+    position: relative;
+    padding: 7px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.MessageSent {
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #fbf2da;
+}
+
+.MessageNotSent {
+    margin-left: 10px;
+    margin-right: 0;
+    background-color: #bad4f7ce;
+}

@@ -1,0 +1,22 @@
+#connectedUser {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 3px solid #a3c8f7;
+}
+
+#connectedNickname {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.row>* {
+    padding: 0px;
+}
+
+#error {
+    text-align: center;
+}
+
+.bi {
+    text-align: center;
+}

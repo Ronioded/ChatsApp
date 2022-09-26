@@ -1,0 +1,23 @@
+#addContactTitle {
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+#addContactFields {
+    padding: 5px;
+}
+
+#addContactButton {
+    position: relative;
+    width: 97%;
+    margin: 5px;
+}
+
+#addContactModal {
+    display: none;
+}
+
+.addContactPadding {
+    padding: 5px;
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AddContactActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:fontFamily="sans-serif">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/pages_background"
+        android:layout_margin="30dp"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_contact"
+                android:textSize="35sp"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/exit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/close_icon"
+                android:backgroundTint="@color/pink"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/contact_username_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_s_username"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_username_add_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_user_name_placeholder"
+            android:inputType="text"
+            android:labelFor="@+id/contact_username_label"
+            android:textColorHint="@color/gray"
+            android:background="@null"
+            android:backgroundTint="@color/yellow"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/yellow"/>
+
+        <TextView
+            android:id="@+id/new_contact_username_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/red"
+            android:visibility="invisible"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/contact_nickname_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_s_nickname"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_nickname_add_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_nick_name_placeholder"
+            android:inputType="text"
+            android:labelFor="@+id/contact_username_label"
+            android:textColorHint="@color/gray"
+            android:background="@null"
+            android:backgroundTint="@color/yellow"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/yellow"/>
+
+        <TextView
+            android:id="@+id/new_contact_nickname_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/red"
+            android:visibility="invisible"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/add_contact_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
