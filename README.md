@@ -30,19 +30,15 @@ Pages in the app:
 _1._ **Register Page** for new users with basic requirements and validations, for example, checks that the password contains letters & numbers and checks that there is no other user registered with the same username.  <img width="960" alt="image" src="https://user-images.githubusercontent.com/74676502/192283603-32653347-7ec1-4f1c-9647-c55fff61d273.png">  
 _2._ **Login Page** for existing users.  <img width="960" alt="image" src="https://user-images.githubusercontent.com/74676502/192283453-b6de5ef4-be3a-4b7e-9932-4479723a0d7a.png">  
 _3._ **Chats Window Page**- On this page, we can see on the left the Chats list of the user.   
-
-
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74676502/192327862-8f6b332b-3eca-41aa-902d-ab4438ad04ae.png">  
 _4._ **Chat Page**- Once the user clicks on contact, he can see on the right the chat with the same user.  
-
-
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74676502/192328016-e1bfb019-b3f9-4986-9626-edaf27c1dd0c.png">  
 _5._ **Add Contact Modal**- In this modal, the user can add a chat with a new contact.  
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74676502/192328108-2d964cbf-8127-4b9b-92f6-c56fd13542d0.png">  
+***Example***
+In this video, you can see the registration of a new user, login of existing user, adding new contact, click on the contact to see the new empty chat and then send messages in the chat:  
 
-
-
-In this video, you can see the registration of a new user, add a new contact, and click on the contact to see the new empty chat.
-
-
-
+https://user-images.githubusercontent.com/74676502/192327111-70371e4b-b87e-405b-bbb3-48bdc88f629a.mov    
 ### How to run?  
 To run the client, you need to download:
    -  @microsoft/signalr by the command ```npm i @microsoft/signalr```
@@ -64,18 +60,17 @@ _2._ **Login Page**
 <img width="173" alt="login android" src="https://user-images.githubusercontent.com/74676502/192304671-59184a9d-09ac-4dfa-8020-befa12f3c9dd.png">
   
 _3._ **Chats Window Page**  
-
-  
+<img width="172" alt="image" src="https://user-images.githubusercontent.com/74676502/192329267-9467ac13-1382-413f-bac3-d8815c9f5470.png">  
 _4._ **Chat Page**  
-
-  
+<img width="172" alt="image" src="https://user-images.githubusercontent.com/74676502/192329538-491d8c2e-81dc-4f5f-b2b9-4d0295e39764.png">  
 _5._ **Add Contact Page**  
 <img width="167" alt="add contact android" src="https://user-images.githubusercontent.com/74676502/192304808-dd5659aa-e8f6-4061-942d-459b42314053.png">
   
 
-In this video, you can see the registration of a new user, add a new contact, and click on the contact to see the new empty chat.
+***Example***
+In this video, you can see the registration of a new user, login of existing user, adding new contact, click on the contact to see the new empty chat and then send messages in the chat:  
 
-
+https://user-images.githubusercontent.com/74676502/192327512-d696afe1-cb74-4693-93e2-8defbe8a69c3.mov  
 
 ### How to run?  
 You can open the files on Android Studio and run it with Android emulator.  
