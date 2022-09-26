@@ -75,4 +75,5 @@ https://user-images.githubusercontent.com/74676502/192327512-d696afe1-cb74-4693-
 ### How to run?  
 You can open the files on Android Studio and run it with Android emulator.  
 In order to enable the firebase you need to connect the firebase to our android project files, download a private key from firebase website and put the pk json file in the Server under the path FireBase/privateKey.json.  
-_Notice:_ in order to login, register and send messages in the clients (web or android), you need to run the server first.
+_Notice:_ in order to login, register and send messages in the clients (web or android), you need to run the server first.  
+Relvant files are in ```ChatsApp/Android Client/app/src/main/```
